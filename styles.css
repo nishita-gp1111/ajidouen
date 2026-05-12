@@ -214,6 +214,18 @@ h3 {
   width: 100%;
 }
 
+.hero-photo {
+  display: block;
+  width: 100%;
+  min-height: 24rem;
+  max-height: 34rem;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+}
+
 .photo-placeholder,
 .photo-tile {
   display: grid;
@@ -442,6 +454,10 @@ h3 {
   }
 
   .photo-placeholder {
+    min-height: 18rem;
+  }
+
+  .hero-photo {
     min-height: 18rem;
   }
 
